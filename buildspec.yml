@@ -14,6 +14,12 @@ phases:
     commands:
     - echo building the justiceleague-tracker
     - mvn clean install
+    - mvn test
+reports:
+  Junit-reports:
+    files:
+      - "reports/**/*.xml"
+    file-format: "JUNITXML"
 artifacts:
   files:
   - target/*.jar
