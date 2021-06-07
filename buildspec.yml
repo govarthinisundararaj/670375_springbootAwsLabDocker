@@ -13,8 +13,8 @@ phases:
   build:
     commands:
     - echo building the justiceleague-tracker
-    - mvn clean install
     - mvn test
+    - mvn install
 reports:
   Junit-reports:
     files:
