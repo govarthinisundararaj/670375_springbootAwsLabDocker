@@ -18,8 +18,10 @@ phases:
 reports:
   Junit-reports:
     files:
-      - "reports/**/*.xml"
-    file-format: "JUNITXML"
+      - "target/surefire-reports/*.xml"
+  jacoco-reports:
+    files:
+      - "target/site/jacoco/index.html"
 artifacts:
   files:
   - target/*.jar
