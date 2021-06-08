@@ -10,7 +10,7 @@ phases:
     - echo installing maven...
     - apt-get update -y
     - apt-get install -y maven
-    - apt install openjdk-8-jdk
+    - apt install -y openjdk-8-jdk
   build:
     commands:
     - echo building the justiceleague-tracker
