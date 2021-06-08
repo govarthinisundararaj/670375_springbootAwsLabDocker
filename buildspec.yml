@@ -14,6 +14,7 @@ phases:
     commands:
     - echo building the justiceleague-tracker
     - mvn test
+    - mvn surefire-report:report
     - mvn install
 reports:
   Junit-reports:
