@@ -19,7 +19,8 @@ phases:
 reports:
   Junit-reports:
     files:
-      - "target/surefire-reports/*.xml"
+     - '**/*'
+    base-directory: 'target/surefire-reports' 
   jacoco-reports:
     files:
       - "target/site/jacoco/index.html"
