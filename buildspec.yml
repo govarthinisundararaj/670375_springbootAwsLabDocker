@@ -24,7 +24,7 @@ reports:
      - '**/*.xml'
     base-directory: 'target/surefire-reports' 
     file-format: "JUNITXML"
-  jacoco-reports:
+  arn:aws:codebuild:ap-south-1:360174799684:report-group/CODE_COV_REPORT:
     files:
       - "target/site/jacoco/jacoco.xml"
     file-format: "JACOCOXML"
