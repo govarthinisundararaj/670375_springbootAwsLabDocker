@@ -30,7 +30,7 @@ reports:
 artifacts:
   artifact:
     files:
-    - target/*
+    - 'target/**/*'
  
 
 cache:
