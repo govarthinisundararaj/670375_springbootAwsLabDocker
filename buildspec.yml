@@ -36,8 +36,8 @@ artifacts:
     discard-paths: yes
   artifacttarget:
     files:
-    - '**/*'
-    base-directory: 'target'
+    - 'target/*'
+ 
 
 cache:
   paths:
