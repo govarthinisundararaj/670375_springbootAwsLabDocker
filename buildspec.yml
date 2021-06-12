@@ -30,13 +30,7 @@ reports:
 artifacts:
   artifact:
     files:
-    - target/*.jar
-    - scripts/*.sh
-    - appspec.yml
-    discard-paths: yes
-  artifacttarget:
-    files:
-    - 'target/*'
+    - target/*
  
 
 cache:
