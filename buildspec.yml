@@ -28,16 +28,16 @@ reports:
       - "target/site/jacoco/index.html"
     
 artifacts:
-artifact:
-  files:
-  - target/*.jar
-  - scripts/*.sh
-  - appspec.yml
-  discard-paths: yes
-artifacttarget:
-  files:
-  - '**/*'
-  base-directory: 'target'
+  artifact:
+    files:
+    - target/*.jar
+    - scripts/*.sh
+    - appspec.yml
+    discard-paths: yes
+  artifacttarget:
+    files:
+    - '**/*'
+    base-directory: 'target'
 
 cache:
   paths:
