@@ -25,7 +25,8 @@ reports:
     file-format: "JUNITXML"
   jacoco-reports:
     files:
-      - "target/site/jacoco/index.html"
+      - "target/site/jacoco-aggregate-all/jacoco.xml"
+    file-format: 'JACOCOXML'
 artifacts:
   files:
   - target/*.jar
