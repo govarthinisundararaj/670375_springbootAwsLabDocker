@@ -26,12 +26,16 @@ reports:
     file-format: "JUNITXML"
   jacoco-reports:
     files:
-      - "target/site/jacoco/index.html"
+      - "target/site/jacoco/jacoco.xml"
+    file-format: "JACOCOXML"
     
 artifacts:
   artifact:
     files:
-    - 'target/**/*'
+    - target/*.jar
+    - scripts/*.sh
+    - appspec.yml
+    discard-paths: yes
  
 
 cache:
